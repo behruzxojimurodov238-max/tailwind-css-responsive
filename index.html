@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#1F242D]">
+    <!-- sm, md, lg, xl -->
+     <header class="flex items-center justify-between text-[white] px-[12px] py-[17px] md:px-[23px] md:py-[19px] lg:px-[92px] xl:px-[130px] xl:py-[22px]">
+        <h2 class="text-[20px] font-semibold md:text-[22px] xl:text-[25px]">Portfolio</h2>
+        <img class="w-[19px] md:w-[21px] lg:hidden" src="./images/Icon (6).svg" alt="logo">
+        <nav class="hidden lg:flex items-center justify-center gap-[38px] text-[15px] font-[400] xl:text-[17px] xl:gap-[42px]">
+            <a class="hover:text-[#00EEFF] ease-in-out duration-300" href="#">Home</a>
+            <a class="hover:text-[#00EEFF] ease-in-out duration-300" href="#">About</a>
+            <a class="hover:text-[#00EEFF] ease-in-out duration-300" href="#">Services</a>
+            <a class="hover:text-[#00EEFF] ease-in-out duration-300" href="#">Portfolio</a>
+            <a class="hover:text-[#00EEFF] ease-in-out duration-300" href="#">Contact</a>
+        </nav>
+     </header>
+     <main>
+        <section class="flex flex-col items-start justify-center px-[12px] pt-[29px] md:px-[23px] md:pt-[235px] lg:flex-row lg:justify-between lg:items-center lg:pt-[68px] lg:px-[92px] xl:pt-[104px] xl:px-[130px]">
+            <div class="flex flex-col items-start justify-center gap-[20px] text-white md:gap-[30px] xl:gap-[25px]">
+                <div>
+                    <h2 class="text-[21px] font-bold md:text-[23px] lg:text-[28px] xl:text-[32px]">Hello It's Me</h2>
+                    <h1 class="text-[40px] font-bold md:text-[44px] lg:text-[50px] xl:text-[56px]">John Kendric</h1>
+                    <h2 class="text-[21px] font-bold md:text-[23px] lg:text-[28px] xl:text-[32px]">And I'm a <span class="text-[#00EEFF]">Frontend Developer |</span></h2>
+                </div>
+                <p class="text-[13px] font-[400] max-w-[354px] md:text-[14px] md:max-w-[700px] lg:max-w-[467px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla libero labore exercitationem, iste iusto unde eos.</p>
+                <div class="flex items-center justify-center gap-[14px] md:gap-[16pxx]">
+                    <img src="./images/Link.svg" alt="Link">
+                    <img src="./images/Link (1).svg" alt="Link">
+                    <img src="./images/Link (2).svg" alt="Link">
+                    <img src="./images/Link (3).svg" alt="Link">
+                </div>
+                <div class="bg-[#00EEFF] px-[23px] py-[9px] text-[#323946] text-[13px] font-semibold rounded-[32px] md:px-[25px] md:text-[14px] xl:text-[16px] xl:py-[11px] xl:px-[28px]">Download CV</div>
+            </div>
+            <img class="pt-[32px] mx-auto w-[273px] md:w-[538px] md:pt-[36px] lg:w-[460px] lg:translate-y-[-20px] xl:w-[504px]" src="./images/persone.png" alt="persone">
+        </section>
+     </main>
+</body>
+</html>
